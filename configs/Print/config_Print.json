@@ -1,0 +1,8 @@
+{
+  "serviceURL": "http://gis.ecan.govt.nz/arcgis/rest/services/Printing/MapPrinting_Sync/GPServer/Export%20Web%20Map",
+  "defaultTitle": "powered by Canterbury Maps",
+  "defaultAuthor": "Canterbury Maps",
+  "defaultCopyright": "CC BY 3.0 NZ",
+  "defaultFormat": "PDF",
+  "defaultLayout": "A3 Landscape"
+}

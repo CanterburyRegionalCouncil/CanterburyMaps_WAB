@@ -1,0 +1,231 @@
+{
+  "layerInfos": [
+    {
+      "name": "Orthophotography Metadata",
+      "id": "Imagery_7363",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/MapServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": false
+          },
+          {
+            "name": "Survey_Name",
+            "alias": "Survey Name",
+            "show": true
+          },
+          {
+            "name": "Date_Flown",
+            "alias": "Date Flown",
+            "show": true,
+            "format": {
+              "dateFormat": "dayShortMonthYear"
+            }
+          },
+          {
+            "name": "Altitude",
+            "alias": "Altitude",
+            "show": true
+          },
+          {
+            "name": "Coord_System_XY",
+            "alias": "Coordinate System XY",
+            "show": true
+          },
+          {
+            "name": "Coord_System_Z",
+            "alias": "Coordinate System Z",
+            "show": true
+          },
+          {
+            "name": "Accuracy_XY",
+            "alias": "Accuracy XY",
+            "show": true
+          },
+          {
+            "name": "Accuracy_Z",
+            "alias": "Accuracy Z",
+            "show": true
+          },
+          {
+            "name": "Owner",
+            "alias": "Owner",
+            "show": true
+          },
+          {
+            "name": "License",
+            "alias": "License",
+            "show": true
+          },
+          {
+            "name": "License_Description",
+            "alias": "License Description",
+            "show": true
+          },
+          {
+            "name": "PERIMETER_M",
+            "alias": "PERIMETER_M",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "AREA_HA",
+            "alias": "AREA_HA",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Population center and locality labels",
+      "id": "Region_Base_Labels_367_0",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base_Labels/MapServer/0"
+      },
+      "show": false
+    },
+    {
+      "name": "Hydrographic feature labels",
+      "id": "Region_Base_Labels_367_1",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base_Labels/MapServer/1"
+      },
+      "show": false
+    },
+    {
+      "name": "Parks, forests, and reserves labels",
+      "id": "Region_Base_Labels_367_2",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base_Labels/MapServer/2"
+      },
+      "show": false
+    },
+    {
+      "name": "Address point labels",
+      "id": "Region_Base_Labels_367_3",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base_Labels/MapServer/3"
+      },
+      "show": false
+    },
+    {
+      "name": "Road labels",
+      "id": "Region_Base_Labels_367_4",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base_Labels/MapServer/4"
+      },
+      "show": false
+    },
+    {
+      "name": "Regional authority labels",
+      "id": "Region_Base_Labels_367_5",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base_Labels/MapServer/5"
+      },
+      "show": false
+    },
+    {
+      "name": "Territorial authority labels",
+      "id": "Region_Base_Labels_367_6",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base_Labels/MapServer/6"
+      },
+      "show": false
+    },
+    {
+      "name": "Regional Boundaries",
+      "id": "Region_Base_8683_0",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base/MapServer/0"
+      },
+      "show": false
+    },
+    {
+      "name": "Territorial Authority Boundaries",
+      "id": "Region_Base_8683_1",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base/MapServer/1"
+      },
+      "show": false
+    },
+    {
+      "name": "State highways (>1:1,000,000)",
+      "id": "Region_Base_8683_2",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base/MapServer/2"
+      },
+      "show": false
+    },
+    {
+      "name": "State highways (<1:1,000,000)",
+      "id": "Region_Base_8683_3",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base/MapServer/3"
+      },
+      "show": false
+    },
+    {
+      "name": "State highways (<1:250,000)",
+      "id": "Region_Base_8683_4",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base/MapServer/4"
+      },
+      "show": false
+    },
+    {
+      "name": "Roads (250,000 - 50,000)",
+      "id": "Region_Base_8683_5",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base/MapServer/5"
+      },
+      "show": false
+    },
+    {
+      "name": "Land Parcels",
+      "id": "Region_Base_8683_6",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base/MapServer/6"
+      },
+      "show": false
+    },
+    {
+      "name": "State highways outside Canterbury",
+      "id": "Region_Base_8683_7",
+      "layer": {
+        "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base/MapServer/7"
+      },
+      "show": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": true
+}
