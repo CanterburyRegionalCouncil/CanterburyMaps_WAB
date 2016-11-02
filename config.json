@@ -318,12 +318,11 @@
       },
       {
         "name": "eDraw",
-        "uri": "widgets/eDraw/Widget",
-        "index": 8,
-        "id": "widgets_eDraw_Widget_20",
-        "icon": "widgets/eDraw/images/icon.png?wab_dv=2.1",
         "version": "2.1.1",
-        "config": "configs/eDraw/config_eDraw.json"
+        "uri": "widgets/eDraw/Widget",
+        "config": "configs/eDraw/config_eDraw.json",
+        "index": 8,
+        "id": "widgets_eDraw_Widget_33"
       },
       {
         "name": "Measurement",
