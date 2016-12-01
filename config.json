@@ -421,6 +421,6 @@
   "isWebTier": false,
   "httpProxy": {
     "useProxy": true,
-    "url": "/proxy.js"
+    "url": "proxy.ashx"
   }
 }
