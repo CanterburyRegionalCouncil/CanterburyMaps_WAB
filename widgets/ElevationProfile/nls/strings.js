@@ -1,14 +1,14 @@
 define({
   root: ({
       descriptionlabel: "Use the measure tool below to draw a line on the map that you want to see the elevation profile for.",
-      chartLabel: "Hover over or touch the Elevations Profile chart to display elevations and show location on map. This elevation data is derived from 30 metre resolution, satellite data. It should only be used as an indication of elevation/height.",
+      chartLabel: "Hover over or touch the Elevations Profile chart to display elevations and show location on map. This elevation data comes from 1m LiDAR where available and 20m LINZ topographic contours everywhere else. The highest resolution elevation data is used to provide elevation profile graph and values where available. Values from this tool should only be used as an indication of elevation/height.",
     clear: "Clear",
     measurelabel: "Measure",
     resultslabel: "Profile Result",
     profileinfo: "Profile Information",
     display: {
       elevationProfileTitle: "Elevation Profile",
-      hoverOver: "Hover over or touch the Elevations Profile chart to display elevations and show location on map. This elevation data is derived from 30 metre resolution, satellite data. It should only be used as an indication of elevation/height."
+      hoverOver: "Hover over or touch the Elevations Profile chart to display elevations and show location on map. This elevation data comes from 1m LiDAR where available and 20m LINZ topographic contours everywhere else. The highest resolution elevation data is used to provide elevation profile graph and values where available. Values from this tool should only be used as an indication of elevation/height."
     },
     chart: {
       title: "Elevation Profile",
