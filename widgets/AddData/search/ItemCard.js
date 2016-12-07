@@ -129,7 +129,7 @@ define(["dojo/_base/declare",
       },
 
       openDataUrl: function (item) {
-          var url = "http://opendata.canterburymaps.govt.nz/datasets/" + encodeURIComponent(item.id);
+          var url = "http://preview.ecan.opendata.arcgis.com/datasets/" + encodeURIComponent(item.id);
 
           // Check url to see if it is a feature layer 
           var urlParts = item.url.split("/");
